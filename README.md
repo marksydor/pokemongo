@@ -1,10 +1,11 @@
 # Pokedex React App
 
 This projects is online Pokedex^^.\
-This project was created with React and uses https://pokeapi.co/ .\
-Also app is available here https://marksydor.github.io/pokemongo/ .\
+This project was created with React and uses https://pokeapi.co/ .
+Also app is available here https://marksydor.github.io/pokemongo/ .
 
 **The startup commands are listed below**
+**as bonus points: Adaptive styling & Filter visible pokemons by type**
 
 # Using one-click online setup
 	
