@@ -1,3 +1,18 @@
+# Pokedex React App
+
+This projects is online Pokedex^^.\
+This project was created with React and uses https://pokeapi.co/ 
+
+**The startup commands are listed below**
+
+# Using one-click online setup
+	
+You can use any IDE. With a single click it will launch a workspace and automatically:
+
+- clone the immer repo.
+- install the dependencies.
+- run `npm run start`.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
