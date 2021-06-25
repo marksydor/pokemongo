@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pokemongo/static/css/main.94a0f455.chunk.css",
+    "main.js": "/pokemongo/static/js/main.1ee055a6.chunk.js",
+    "main.js.map": "/pokemongo/static/js/main.1ee055a6.chunk.js.map",
+    "runtime-main.js": "/pokemongo/static/js/runtime-main.ec027dd0.js",
+    "runtime-main.js.map": "/pokemongo/static/js/runtime-main.ec027dd0.js.map",
+    "static/js/2.967514c1.chunk.js": "/pokemongo/static/js/2.967514c1.chunk.js",
+    "static/js/2.967514c1.chunk.js.map": "/pokemongo/static/js/2.967514c1.chunk.js.map",
+    "static/js/3.93a27dd1.chunk.js": "/pokemongo/static/js/3.93a27dd1.chunk.js",
+    "static/js/3.93a27dd1.chunk.js.map": "/pokemongo/static/js/3.93a27dd1.chunk.js.map",
+    "index.html": "/pokemongo/index.html",
+    "static/css/main.94a0f455.chunk.css.map": "/pokemongo/static/css/main.94a0f455.chunk.css.map",
+    "static/js/2.967514c1.chunk.js.LICENSE.txt": "/pokemongo/static/js/2.967514c1.chunk.js.LICENSE.txt",
+    "static/media/pokemon.bfa18316.svg": "/pokemongo/static/media/pokemon.bfa18316.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec027dd0.js",
+    "static/js/2.967514c1.chunk.js",
+    "static/css/main.94a0f455.chunk.css",
+    "static/js/main.1ee055a6.chunk.js"
+  ]
+}
