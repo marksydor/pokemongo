@@ -1,0 +1,250 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.pokedexHeader {
+	max-width: 400px;
+	padding: 5px;
+	margin: 10px auto;
+	border:  1px solid black;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 1fr 286px;
+	padding: 5px;
+	grid-template-areas: "t t" "a b"
+}
+
+.pocemonsList {
+	grid-area: a;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.pocemonItem {
+	border:  1px solid black;
+	width: 170px;
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+	cursor: pointer;
+	height: 256px;
+}
+
+.pocemonItem:hover {
+	box-shadow: 0px 0px 10px blue;
+}
+
+.pocemonItemActive {
+	border:  1px solid black;
+	width: 170px;
+	padding: 10px;
+	margin: 5px;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: 0px 0px 10px green;
+}
+
+.pocemonItem img {
+	display: block;
+	width: 150px;
+	margin: 5px auto;
+}
+
+.tag {
+	display: inline-block;
+	float: left;
+	padding: 0px 10px;
+	margin: 5px 2px;
+	border-radius: 0.25rem;
+	border-width: 2px;
+	border-style: solid;
+	cursor: pointer;
+}
+
+.pocemonInfo {
+	grid-area: b;
+	position: relative;
+	/*right: 10px;*/
+	margin-top: 10px;
+}
+
+.pocemonInfoCard {
+	position: fixed;
+	width: 256px;
+	padding: 10px;
+	border:  1px solid black;
+}
+
+.pocemonInfoCard h2 {
+	text-align: center;
+}
+
+.pocemonInfoCard img {
+	width: 256px;
+	display: block;
+	margin: 0 auto;
+	border:  1px solid black;
+
+}
+
+.statsTable {
+	margin-top: 10px;
+	border:  1px solid black;
+}
+
+.row {
+	text-align: center;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.row div {
+	border:  1px solid black;
+	padding:  2px;
+}
+
+.loadMore {
+	text-decoration: none;
+	color: white;
+	background: #008cff;
+	width: 96%;
+	height: 60px;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 1rem;
+	margin: 10px auto;
+	cursor: pointer;
+}
+
+.Dis {
+	background-color: grey;
+	cursor: no-drop;
+}
+
+.Normal {
+	background: linear-gradient(white ,#db98e3);
+	border-color: #db98e3;
+}
+.Fighting {
+	background: linear-gradient(white ,#e39898);
+	border-color: #e39898;
+}
+.Flying {
+	background: linear-gradient(white ,#11c0fa);
+	border-color: #11c0fa;
+}
+.Poison {
+	background: linear-gradient(white ,#9374a2);
+	border-color: #9374a2;
+}
+.Ground {
+	background: linear-gradient(white ,#542f2f);
+	border-color: #542f2f;
+}
+.Rock {
+	background: linear-gradient(white ,#616153);
+	border-color: #616153;
+}
+.Bug {
+	background: linear-gradient(white ,#b6e0d1);
+	border-color: #b6e0d1;
+}
+.Ghost {
+	background: linear-gradient(white ,#fff6de);
+	border-color: #fff6de;
+}
+.Steel {
+	background: linear-gradient(white ,#4197d1);
+	border-color: #4197d1;
+}
+.Fire {
+	background: linear-gradient(white ,#ed8783);
+	border-color: #ed8783;
+}
+.Water {
+	background: linear-gradient(white ,#1325cf);
+	border-color: #1325cf;
+}
+.Grass {
+	background: linear-gradient(white ,#9fd484);
+	border-color: #9fd484;
+}
+.Electric {
+	background: linear-gradient(white ,#ffdc74);
+	border-color: #ffdc74;
+}
+.Psychic {
+	background: linear-gradient(white ,#7841c4);
+	border-color: #7841c4;
+}
+.Ice {
+	background: linear-gradient(white ,#08e6ff);
+	border-color: #08e6ff;
+}
+.Dragon {
+	background: linear-gradient(white ,#fa2500);
+	border-color: #fa2500;
+}
+.Dark {
+	background: linear-gradient(white ,#413e42);
+	border-color: #413e42;
+}
+.Fairy {
+	background: linear-gradient(white ,#ff006a);
+	border-color: #ff006a;
+}
+.Unknown {
+	background: linear-gradient(white ,#ffd6fb);
+	border-color: #ffd6fb;
+}
+.Shadow {
+	background: linear-gradient(white ,#707d42);
+	border-color: #707d42;
+}
+.White {
+	background: linear-gradient(white , white);
+	border-color: #707d42;
+}
+
+.infoTags {
+	float: right;
+	grid-area: t;
+}
+
+.loading {
+	width: 256px;
+	margin: 0 auto;
+}
+
+.loading img {
+	width: 256px;
+	margin: 0 auto;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 510px) {
+	.wrapper {
+		grid-template-columns: 1fr;
+		grid-template-areas: "t t" "a a" "b b";
+	}
+
+	.pocemonInfo {
+		position: static;
+		float: rigth;
+		grid-area: a;
+		margin: 0 auto;
+	}
+
+	.pocemonsList {
+		grid-area: b;
+	}
+
+	.pocemonInfoCard {
+		position: relative;
+	}
+}
